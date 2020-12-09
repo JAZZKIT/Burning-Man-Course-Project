@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\jazzk\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\jazzk\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,567 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+/*======================================================*/
+
+
+.firstpersonone {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/BQoVRFIquTp9q-IXoxtxhIiRU-o=/0x0:3418x2061/1200x800/filters:focal(1436x758:1982x1304)/cdn.vox-cdn.com/uploads/chorus_image/image/56435309/32409154920_35838acf0a_o.0.jpg");
+    height: 93.5vh;
+    background-size: contain;
+}
+
+h1.firstpersontext, p.firstpersontext {
+    color: white;
+}
+
+h1.firstpersontext {
+    font-size: 48px;
+}
+
+.level-left {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.firstperfirstpro, .navbar-brand {
+    height: 50px;
+    margin: 10px 20px;
+    border-radius: 25%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+/* leslie part 2*/
+.leslie.columns {
+    margin-top: 100px;
+}
+
+.media + .media {
+    padding-top: 0;
+}
+
+h1, p, button {
+    margin: 15px;
+}
+
+.firstpersecondpro {
+    height: 180px;
+    width: 120px;
+}
+
+.media {
+    height: 180px;
+    background-color: #ccc;
+    width: 500px;
+}
+
+.infoleslie {
+    padding: 30px;
+    max-width: 350px;
+ 
+}
+
+.column two {
+    margin-top: 100px;
+}
+/*leslie part 3*/
+.lesliepartthree.columns {
+    margin: 30px;
+}
+
+.lesliepartthreefirst {
+    background-color: #ccc;
+    margin: 15px;
+}
+
+.leslieparthreesecond {
+    background-color: #ccc;
+    margin: 15px;
+}
+
+.lesliepartthreeimg {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 35px 20px 50px 10px;
+}
+
+.leslieparagraph {
+    margin: 50px 20px -25px;
+}
+
+.leslienamedate {
+    margin: 50px 20px 0 -60px;
+}
+/*nate*/
+#one, #two {
+    height: 500px;
+    background-color: gray;
+}
+/* part1 end */
+/* nate part 2 */
+#title {
+    padding: 5px;
+    text-align: center;
+}
+/* nate end part2  */
+/* nate part3 */
+#logo {
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+}
+
+.column p {
+    padding: 15px;
+}
+
+#insta {
+    height: 32%;
+    width: 5%;
+    padding: 2px;
+}
+
+#snap {
+    height: 30%;
+    width: 5%;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+p {
+    padding: 7px;
+}
+
+/*matt*/
+section.mattpennellone {
+    padding: 10px 20px 0px 20px;
+}
+
+.mattpennellone.column {
+    margin: 10px;
+}
+
+.mattpennellone p {
+    font-size: 14px;
+}
+
+.mattpennellone h1 {
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 24px;
+    line-height: 54px;
+    color: orange;
+}
+
+.mattpennellone.column, .mattpennellthree.column, .mattpennelltwo.column {
+    max-width: 45%;
+}
+
+.mattpennellthree.column, .mattpennelltwo.column {
+    margin: 30px 0px 10px 30px;
+}
+
+.button.mattpennell {
+    display: flex;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.mattpennelltwo img {
+    max-width: 43%;
+    margin: 10px 10px 10px 10px;
+}
+
+p.mattpennell {
+    margin: 0px 0px 24px 0px;
+}
+
+h1.mattpennell {
+    font-size: 24px;
+    line-height: 54px;
+    color: orange;
+}
+
+strong {
+    color: orange;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.demo .dragdealer {
+    background: #e1e1e1;
+    height: 40px;
+    border-radius: 3px;
+}
+
+    .demo .dragdealer .red-bar {
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        border-radius: 3px;
+    }
+
+/* Just a slider */
+
+#just-a-slider {
+    height: 60px;
+}
+
+    #just-a-slider .handle {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    #just-a-slider .value {
+        padding: 0 0 0 5px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+/* Content slider */
+
+.content-scroller .dragdealer {
+    float: right;
+    width: 40px;
+    height: 300px;
+}
+
+    .content-scroller .dragdealer .handle {
+        width: 40px;
+        height: 60px;
+        text-align: center;
+    }
+
+        .content-scroller .dragdealer .handle i {
+            line-height: 60px;
+        }
+
+.content-scroller .content-mask {
+    height: 298px;
+    margin: 0 55px 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.content-scroller .content-body {
+    /* Incorporate the margins of the paragraphs inside */
+    overflow: hidden;
+    background: #fff;
+}
+
+    .content-scroller .content-body p {
+        margin: 15px;
+        color: #333;
+        font-family: monospace;
+        line-height: 24px;
+    }
+
+/* Slide to unlock */
+
+.slide-to-unlock {
+    position: relative;
+    width: 400px;
+    height: 80px;
+}
+
+    .slide-to-unlock .dragdealer {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        background: none;
+        height: auto;
+    }
+
+    .slide-to-unlock .handle {
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .slide-to-unlock .disabled {
+        background: none;
+    }
+
+    .slide-to-unlock .slide-text {
+        position: absolute;
+        top: 0;
+        height: 80px;
+        font-size: 30px;
+        line-height: 80px;
+        text-align: center;
+    }
+
+/* Old slide to unlock */
+
+.old-slider {
+    border-radius: 16px;
+    background: #222;
+    background-image: -webkit-linear-gradient(top, #111 0%, #333 100%);
+    background-image: -moz-linear-gradient(top, #111 0%, #333 100%);
+    background-image: -o-linear-gradient(top, #111 0%, #333 100%);
+    background-image: linear-gradient(to bottom, #111 0%, #333 100%);
+}
+
+    .old-slider .dragdealer {
+        top: 5px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+    }
+
+    .old-slider .slide-text {
+        right: 0;
+        width: 290px;
+        height: 70px;
+        color: #999;
+        line-height: 70px;
+        cursor: default;
+    }
+
+    .old-slider .handle {
+        width: 100px;
+        border-radius: 12px;
+        background: #ccc;
+        background-image: -webkit-linear-gradient(top, #f1f1f1 0%, #aaa 100%);
+        background-image: -moz-linear-gradient(top, #f1f1f1 0%, #aaa 100%);
+        background-image: -o-linear-gradient(top, #f1f1f1 0%, #aaa 100%);
+        background-image: linear-gradient(to bottom, #f1f1f1 0%, #aaa 100%);
+    }
+
+/* Slide to unlock new */
+
+.new-slider {
+    background: #333344;
+}
+
+    .new-slider .dragdealer {
+        overflow: hidden;
+    }
+
+    .new-slider .handle {
+        width: 200%;
+    }
+
+    .new-slider .slide-text {
+        left: 50%;
+        width: 50%;
+        color: #9999aa;
+    }
+
+/* Image carousel */
+
+#image-carousel {
+    height: 400px;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+    #image-carousel .handle {
+        width: 400%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+        #image-carousel .handle .slide {
+            float: left;
+            position: relative;
+            width: 25%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        #image-carousel .handle .img1 {
+            background-image: url('http://stuckincustoms.smugmug.com/Portfolio/i-KMjVHRd/0/X3/Andramada-X3.jpg');
+        }
+
+        #image-carousel .handle .img2 {
+            background-image: url('http://stuckincustoms.smugmug.com/Burning-Man/i-dd9xmfn/0/X3/The%20Steamy%20Car-X3.jpg');
+        }
+
+        #image-carousel .handle .img3 {
+            background-image: url('http://stuckincustoms.smugmug.com/Portfolio/i-KscS8CF/0/X3/Burning-Man-Day-1%20%281006%20of%201210%29-X3.jpg');
+        }
+
+        #image-carousel .handle .img4 {
+            background-image: url('http://stuckincustoms.smugmug.com/Portfolio/i-jQcPqJb/0/X3/Burning-Man-Last-Day-Night%20%28151%20of%201120%29-X3.jpg');
+        }
+
+        #image-carousel .handle .slide .info {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 10px 15px;
+            background: #fff;
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+            #image-carousel .handle .slide .info p {
+                margin: 0;
+            }
+
+            #image-carousel .handle .slide .info .title {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 30px;
+            }
+
+            #image-carousel .handle .slide .info .description {
+                color: #333;
+                font-size: 16px;
+                line-height: 20px;
+            }
+
+/* Canvas mask */
+
+#canvas-mask {
+    height: 500px;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+    #canvas-mask .handle {
+        width: 200%;
+        height: 200%;
+        border-radius: 0;
+        background: url('../image/canvas-mask.jpg') no-repeat center center;
+    }
+
+        #canvas-mask .handle .page {
+            float: left;
+            position: relative;
+            width: 50%;
+            height: 50%;
+        }
+
+            #canvas-mask .handle .page .menu {
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                margin: 0;
+                padding: 10px 15px;
+                background: #000;
+                background: rgba(0, 0, 0, 0.75);
+                color: #666;
+                cursor: default;
+            }
+
+            #canvas-mask .handle .page .body {
+                position: absolute;
+                bottom: 15px;
+                left: 15px;
+                margin: 0;
+                padding: 10px 15px;
+                background: #fff;
+                background: rgba(255, 255, 255, 0.5);
+                color: #000;
+                color: rgba(0, 0, 0, 0.75);
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+
+
+
