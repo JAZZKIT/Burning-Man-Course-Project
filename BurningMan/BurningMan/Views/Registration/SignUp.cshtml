@@ -1,35 +1,49 @@
-﻿
+﻿@model BurningMan.ViewModels.RegisterViewModels
 @{
     ViewData["Title"] = "SignUp";
 }
 
 <h1>SignUp</h1>
-
-<div class="wrapper">
+<form method="post" asp-controller="Registration" asp-action="SignUp">
+    <div class="wrapper">
         <div class="title">
             Registration Form
         </div>
         <div class="form">
+            <div asp-validation-summary="ModelOnly"></div>
             <div class="inputfield">
-                <label>Full Name</label>
-                <input type="text" class="input">
+                <label asp-for="Name"></label><br />
+                <input asp-for="Name" class="input" />
+                <span asp-validation-for="Name"></span>
+                @*<label>Full Name</label>
+                <input type="text" class="input">*@
             </div>
             <div class="inputfield">
-                <label>Password</label>
-                <input type="password" class="input">
+                <label asp-for="Email"></label><br />
+                <input asp-for="Email" class="input" />
+                <span asp-validation-for="Email"></span>
+                @*<label>Email Address</label>
+                <input type="text" class="input">*@
             </div>
             <div class="inputfield">
-                <label>Confirm Password</label>
-                <input type="password" class="input">
+                <label asp-for="Password"></label><br />
+                <input asp-for="Password" class="input" />
+                <span asp-validation-for="Password"></span>
+                @*<label>Password</label>
+                <input type="password" class="input">*@
             </div>
             <div class="inputfield">
-                <label>Email Address</label>
-                <input type="text" class="input">
+                <label asp-for="PasswordConfirm"></label><br />
+                <input asp-for="PasswordConfirm" class="input" />
+                <span asp-validation-for="PasswordConfirm"></span>
+                @*<label>Confirm Password</label>
+                <input type="password" class="input">*@
             </div>
             <div class="inputfield">
                 <input type="submit" value="Register" class="btn amber darken-2">
             </div>
         </div>
     </div>
+</form>
 
 
