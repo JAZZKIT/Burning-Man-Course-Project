@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "MyProfile";
+}
+
+<h1>MyProfile</h1>
+
+<p>@User.Identity.Name</p>
+
+<form method="post" asp-controller="Registration" asp-action="Logout">
+    <input type="submit" value="Выход" />
+</form>

@@ -1,0 +1,38 @@
+﻿@model BurningMan.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+@*<style>
+    body {
+        background-image: url("");
+    }
+</style>*@
+
+<h1>Log in</h1>
+<form method="post" asp-controller="Registration" asp-action="Login"
+      asp-route-returnUrl="@Model.ReturnUrl">
+    <div class="wrapper">
+        <div class="title">
+            Log
+        </div>
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="inputfield">
+            <label asp-for="Email"></label><br />
+            <input asp-for="Email" class="input" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="inputfield">
+            <label asp-for="Password"></label><br />
+            <input asp-for="Password" class="input" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        @*<div>
+            <label asp-for="RememberMe" ></label><br />
+            <input asp-for="RememberMe" class="input"/>
+        </div>*@
+        <div class="inputfield">
+            <input type="submit" value="Log in" class="btn amber darken-2"/>
+        </div>
+    </div>
+</form>

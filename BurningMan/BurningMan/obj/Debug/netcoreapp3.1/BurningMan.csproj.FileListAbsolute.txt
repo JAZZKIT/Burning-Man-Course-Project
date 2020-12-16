@@ -190,3 +190,5 @@ D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.csproj.CoreCompileInputs.cache
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.MvcApplicationPartsAssemblyInfo.cache
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\Registration\Login.cshtml.g.cs
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\Account\MyProfile.cshtml.g.cs

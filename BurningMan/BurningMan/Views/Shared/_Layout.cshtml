@@ -24,9 +24,18 @@
             <div class="nav-wrapper amber darken-2">
                 @Html.ActionLink("Burning Man", "Index", new { controller = "Home" }, new { @class = "brand-logo center" })
                 @*<a href="#" class="brand-logo center">BurningMan</a>*@
+
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>@Html.ActionLink("Sign Up", "SignUp", "Registration")</li>
-                    <li><a href="badges.html">Login</a></li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Profile", "MyProfile", "Account")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Sign Up", "SignUp", "Registration")</li>
+                        <li>@Html.ActionLink("Log in", "Login", "Registration")</li>
+                    }
                 </ul>
             </div>
         </nav>
