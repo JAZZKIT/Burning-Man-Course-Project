@@ -242,7 +242,10 @@
         <h1 class="mattpennell"><strong>What are you waiting for? Get your tickets today!</strong></h1>
         <p class="mattpennell">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi soluta, laboriosam dicta vitae distinctio quaerat blanditiis magni. Vitae illum facere cupiditate dolorem, delectus corrupti libero quas quis minus minima provident.</p>
         @*<button type="button" onclick="alert('Sold Out!!!')" class="mattpennell button">Tickets!</button>*@
-        @Html.ActionLink("Tickets!", "TicketMainPage", new { controller = "TicketManage" }, new { @class = "mattpennell button" })
+        @if (User.Identity.IsAuthenticated)
+        {
+            @Html.ActionLink("Tickets!", "TicketMainPage", new {controller = "TicketManage"}, new {@class = "mattpennell button"})
+        }
     </div>
 
 

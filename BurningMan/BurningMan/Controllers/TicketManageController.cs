@@ -8,6 +8,7 @@ namespace BurningMan.Controllers
 {
     public class TicketManageController : Controller
     {
+        
         public IActionResult TicketMainPage()
         {
             return View();
