@@ -193,6 +193,16 @@ D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\MailKit.dll
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\MimeKit.dll
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\TicketManage\TicketMainPage.cshtml.g.cs
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.csproj.CoreCompileInputs.cache
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.MvcApplicationPartsAssemblyInfo.cache
-D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\TicketManage\TicketMainPage.cshtml.g.cs

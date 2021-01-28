@@ -7,7 +7,7 @@
 
 <header id="site-header">
         <div class="container">
-            <h1>Shopping cart <span>[</span> <em><a href="https://codepen.io/tag/rodeo-007" target="_blank">CodePen Challange</a></em> <span class="last-span">]</span></h1>
+            <h1>Black Rock City <span>[</span> <em><a href="https://burningman.org/" target="_blank">Burning Man Project</a></em> <span class="last-span">]</span></h1>
         </div>
     </header>
 
@@ -30,8 +30,8 @@
 
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
 
-                    <div title="You have selected this product to be shipped in the color yellow." style="top: 0" class="color yellow"></div>
-                    <div style="top: 43px" class="type small">XXL</div>
+                    @*<div title="You have selected this product to be shipped in the color yellow." style="top: 0" class="color yellow"></div>
+                    <div style="top: 43px" class="type small">XXL</div>*@
                 </div>
 
                 <footer class="content">
@@ -40,7 +40,7 @@
                     <span class="qt-plus">+</span>
 
                     <h2 class="full-price">
-                        425$
+                        850$
                         @*29.98€*@
                     </h2>
 
@@ -68,8 +68,8 @@
 
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
 
-                    <div title="You have selected this product to be shipped in the color red." style="top: 0" class="color red"></div>
-                    <div title="You have selected this product to be shipped sized Small." style="top: 43px" class="type small">Small</div>
+                    @*<div title="You have selected this product to be shipped in the color red." style="top: 0" class="color red"></div>
+                    <div title="You have selected this product to be shipped sized Small." style="top: 43px" class="type small">Small</div>*@
                 </div>
 
                 <footer class="content">
@@ -103,14 +103,14 @@
 
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, numquam quis perspiciatis ea ad omnis provident laborum dolore in atque.
 
-                    <div title="You have selected this product to be shipped in the color blue." style="top: 0" class="color blue"></div>
-                    <div style="top: 43px" class="type small">Large</div>
+                    @*<div title="You have selected this product to be shipped in the color blue." style="top: 0" class="color blue"></div>
+                    <div style="top: 43px" class="type small">Large</div>*@
                 </div>
 
                 <footer class="content">
 
                     <span class="qt-minus">-</span>
-                    <span class="qt">3</span>
+                    <span class="qt">1</span>
                     <span class="qt-plus">+</span>
 
                     <h2 class="full-price">
@@ -131,14 +131,20 @@
         <div class="container clearfix">
 
             <div class="left">
-                <h2 class="subtotal">Subtotal: <span>163.96</span>$</h2>
-                <h3 class="tax">Taxes (5%): <span>8.2</span>$</h3>
+                <h2 class="subtotal">Subtotal: <span>954.99</span>$</h2>
+                <h3 class="tax">Taxes (5%): <span>47.75</span>$</h3>
                 <h3 class="shipping">Shipping: <span>5.00</span>$</h3>
             </div>
 
             <div class="right">
-                <h1 class="total">Total: <span>177.16</span>$</h1>
-                <a class="btn">Checkout</a>
+                <h1 class="total">Total: <span>1007.74</span>$</h1>
+                @*<a class="btn">Checkout</a>*@
+                @using (Html.BeginForm("BdTest", "TicketManage", FormMethod.Post))
+                {
+                    <input type="submit" name="submit" value="out" class="btn " />
+                    <input type="hidden" name="price" id="AllPrice" />
+                    <input type="hidden" name="qt" id="Quantity" />
+                }
             </div>
 
         </div>
@@ -154,7 +160,10 @@ function changeVal(el) {
   var price = parseFloat(el.parent().children(".price").html());
   var eq = Math.round(price * qt * 100) / 100;
 
-  el.parent().children(".full-price").html(eq + "$");
+    el.parent().children(".full-price").html(eq + "$");
+  var count = 2;
+
+  document.getElementById("Quantity").value = count + qt;
 
   changeTotal();
 }
@@ -179,6 +188,8 @@ function changeTotal() {
   $(".subtotal span").html(price);
   $(".tax span").html(tax);
   $(".total span").html(fullPrice);
+
+    document.getElementById("AllPrice").value = 5 + price + Math.round(price * 0.05 * 100) / 100;
 }
 
 $(document).ready(function () {

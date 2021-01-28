@@ -48,7 +48,6 @@ a {
     #site-header h1 span.last-span {
         background: #fff;
         padding-right: 150px;
-        position: absolute;
         left: 217px;
         -webkit-transition: all .2s linear;
         -moz-transition: all .2s linear;
@@ -354,4 +353,10 @@ a {
 
 .added {
     margin: 0 -50px 0 0 !important;
+}
+
+.media + .media {
+    border-top: 1px solid rgba(219,219,219,.5);
+    margin-top: 1rem;
+    padding-top: 0rem;
 }
