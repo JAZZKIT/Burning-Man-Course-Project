@@ -12,6 +12,7 @@ namespace BurningMan.Models
     {
         public Microsoft.EntityFrameworkCore.DbSet<Ticket> Tickets { get; set; }
         public Microsoft.EntityFrameworkCore.DbSet<Order> Orders { get; set; }
+        public Microsoft.EntityFrameworkCore.DbSet<User> Users { get; set; }
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
             : base(options)

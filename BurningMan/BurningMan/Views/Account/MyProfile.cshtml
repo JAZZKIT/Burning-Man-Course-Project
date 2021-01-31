@@ -1,12 +1,59 @@
-﻿
+﻿@using Microsoft.AspNet.Identity
+@using System.Collections
+@model List<BurningMan.Models.User>
+
 @{
     ViewData["Title"] = "MyProfile";
 }
 
-<h1>MyProfile</h1>
+<div class="container">
+    <h1>MyProfile</h1>
 
-<p>@User.Identity.Name</p>
+    <p>@User.Identity.GetUserId()</p>
 
-<form method="post" asp-controller="Registration" asp-action="Logout">
-    <input type="submit" value="Выход" />
-</form>
+
+
+    @{
+        foreach (var item in (IEnumerable<BurningMan.Models.User>)TempData["ProUser"])
+        {
+            if (item.Id == User.Identity.GetUserId())
+            {
+                <ul id="headData" class="collection z-depth-1 animate fadeLeft">
+
+
+                    <li class="collection-item">
+                        <div class="row">
+                            <div class="col s6">
+                                <h6>Full Name</h6>
+                            </div>
+                            <div class="col s6">
+                                @item.Name
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="collection-item">
+                        <div class="row">
+                            <div class="col s6">
+                                <h6>Mail</h6>
+                            </div>
+                            <div class="col s6">
+                                @item.Email
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+            }
+        }
+    }
+
+    <a class="btn btn-sm btn-primary" asp-action="ChangePassword" asp-route-id="@User.Identity.GetUserId()">Change Password</a>
+
+
+    <form class="btn btn-sm btn-primary" method="post" asp-controller="Registration" asp-action="Logout">
+        <input type="submit" value="Exit" />
+    </form>
+</div>

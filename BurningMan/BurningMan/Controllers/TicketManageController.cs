@@ -17,7 +17,7 @@ namespace BurningMan.Controllers
         private readonly UserManager<User> _userManager;
         private string GetCurrentUserIdAsync() => _userManager.GetUserId(HttpContext.User);
         private IRepository<Order> db;
-        private ApplicationContext bd;
+
         public IActionResult TicketMainPage()
         {
             return View();
@@ -44,8 +44,6 @@ namespace BurningMan.Controllers
 
 
             };
-            //bd.Orders.Add(Ord);
-            //bd.SaveChanges();
             db.Create(Ord);
             db.Save();
             return qt;

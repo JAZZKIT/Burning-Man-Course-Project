@@ -13,7 +13,7 @@ namespace BurningMan.Repositories
 
         public TicketRepository(ApplicationContext context)
         {
-            this.db = context;
+            
         }
 
         public void Create(Ticket item)
