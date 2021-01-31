@@ -14,7 +14,6 @@ namespace BurningMan.Controllers
     {
         private IRepository<User> db;
         private readonly UserManager<User> _userManager;
-        //private ApplicationContext db1;
 
         public AccountController(ApplicationContext context, UserManager<User> userManager)
         {

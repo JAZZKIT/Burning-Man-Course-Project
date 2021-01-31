@@ -10,8 +10,9 @@ namespace BurningMan.Models
     {
         public static async Task InitializeAsync(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
+            string adminName = "Manager";
             string adminEmail = "admin@gmail.com";
-            string password = "Aa123456";
+            string password = "Admin123!";
             if (await roleManager.FindByNameAsync("admin") == null)
             {
                 await roleManager.CreateAsync(new IdentityRole("admin"));
@@ -22,7 +23,7 @@ namespace BurningMan.Models
             }
             if (await userManager.FindByNameAsync(adminEmail) == null)
             {
-                User admin = new User { Email = adminEmail, UserName = adminEmail };
+                User admin = new User {Name = adminName, Email = adminEmail, UserName = adminEmail, EmailConfirmed = true};
                 IdentityResult result = await userManager.CreateAsync(admin, password);
                 if (result.Succeeded)
                 {

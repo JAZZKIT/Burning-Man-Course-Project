@@ -207,3 +207,4 @@ D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\bin\Debug\netcoreapp
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.csproj.CoreCompileInputs.cache
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\BurningMan.MvcApplicationPartsAssemblyInfo.cache
 D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\Account\ChangePassword.cshtml.g.cs
+D:\Dev\Web\Burning-Man-Course-Project\BurningMan\BurningMan\obj\Debug\netcoreapp3.1\Razor\Views\Manage\OrderHistory.cshtml.g.cs

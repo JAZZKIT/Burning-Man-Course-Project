@@ -14,7 +14,7 @@ namespace BurningMan.Models
 
 
         //Maybe collection of tickets 
-        //public int TicketId { get; set; }
+        public int TicketId { get; set; }
         //public Ticket Ticket { get; set; }
 
         public string UserId { get; set; }

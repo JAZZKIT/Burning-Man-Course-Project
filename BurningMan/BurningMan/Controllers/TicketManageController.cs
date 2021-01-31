@@ -38,7 +38,7 @@ namespace BurningMan.Controllers
                 Quantity = Convert.ToInt32(qt),
                 Amount = Convert.ToDecimal(price),
                 OrderDateTime = DateTime.Now,
-                //Ticket = new Ticket
+                TicketId = 1, 
                 UserId = GetCurrentUserIdAsync()
                 
 
